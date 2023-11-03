@@ -1,0 +1,33 @@
+/* pagina para descargar fondos: https://www.svgbackgrounds.com/ */
+body{
+    background-image: url("img/fondo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+/*
+#imagenes {
+    height: 400px;  /* 300px 
+}*/
+
+.name {
+    width: 100px;
+    height: 100px;
+}
+
+#indicadorcarga {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.nombres{
+    text-align: left;
+}*/
